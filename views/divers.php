@@ -18,8 +18,9 @@
 </head>
 
 <body>
+<?php include("header.php")?>
 
-<div class="row text-white p-5 bg-green">
+<div class="row text-white p-3 bg-green">
         <h1 class="text-center">Actes divers </h1>
         <h5 class="text-center"><a href="index.php" class="text-decoration-none text-white"> Accueil</a><i class="bi bi-arrow-right-short"></i> <a href="services.php" class="text-decoration-none text-white"> Mes services</a> <i
                 class="bi bi-arrow-right-short"> </i> <a href="demarches-administratives.php" class="text-decoration-none text-white"> Démarches administrative</a><i class="bi bi-arrow-right-short"></i>

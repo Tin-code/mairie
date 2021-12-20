@@ -12,9 +12,10 @@
 </head>
 
 <body>
+<?php include("header.php")?>
 
     <div class="container-fluid mt-2">
-        <div class="row bg-green text-white p-5">
+        <div class="row bg-green text-white p-3">
             <h1 class="text-center">Espace publicitaire </h1>
             <h5 class="text-center">Tourisme<i class="bi bi-arrow-right-short"></i> Espace publicitaire <i class="bi bi-arrow-right-short"> </i>Hotels</h5>
         </div>

@@ -41,3 +41,6 @@ footer h5 {
 .link-hover:hover{
     color: white;
 }
+.bg-orange{
+    color: rgb(240, 175, 35);
+}

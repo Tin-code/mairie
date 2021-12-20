@@ -13,7 +13,9 @@
 </head>
 
 <body>
-    <div class="row bg-green text-white p-5">
+<?php include("header.php")?>
+
+    <div class="row bg-green text-white p-3">
         <h1 class="text-center">Contacts</h1>
     </div>
     <div class="container mt-4">

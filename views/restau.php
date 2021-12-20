@@ -12,10 +12,11 @@
 </head>
 
 <body>
+<?php include("header.php")?>
     <div class="container-fluid mt-2">
-        <div class="row bg-green text-white p-5">
-            <h1 class="text-center">Espace publicitaire </h1>
-            <h5 class="text-center">Tourisme<i class="bi bi-arrow-right-short"></i> Espace publicitaire <i class="bi bi-arrow-right-short"> </i>Restauration</h5>
+        <div class="row bg-green text-white p-3">
+            <h1 class="text-center">Restauration </h1>
+            <h5 class="text-center"><a href="services.php" class="text-white text-decoration-none">Services</a><i class="bi bi-arrow-right-short"></i> Tourisme <i class="bi bi-arrow-right-short"> </i>Restauration</h5>
         </div>
         <div class="text-center mt-5">
             <h4 class="intro">Decouvrez les specialités culinaire d’ici et d’ailleurs </h4>

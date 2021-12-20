@@ -1,0 +1,33 @@
+.last-rticle {
+    .actualite-card {
+        article {
+            transition: .5s;
+            border-bottom: 5px;
+            overflow: hidden;
+            margin: 1rem;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.158);
+            &:hover {
+                transition: .5s;
+                transform: translateY(-10px);
+            }
+            img {
+                width: 100%;
+            }
+            .article_title {
+                padding: 1rem;
+                font-size: 21px;
+                a {
+                    color: #01384B;
+                    font-weight: 600;
+                }
+            }
+            .article_footer {
+                color: #4d4d4d;
+                padding: 15px 30px;
+                border-top: 1px solid #eaeaea;
+            }
+        }
+    }
+}
+
+@import './_single';

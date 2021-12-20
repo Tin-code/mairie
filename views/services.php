@@ -14,9 +14,10 @@
     <title>Mairie de Man</title>
 </head>
 <body>
+<?php include("header.php")?>
     <div class="row text-white p-3 bg-green">
         <h1 class="text-center m-3">Mes services </h1>
-        <h5 class="text-center m-3">Accueil<i class="bi bi-arrow-right-short"></i> Mes services</h5>
+        <h5 class="text-center m-3"><a class="text-decoration-none text-white" href="index.php">Accueil</a><i class="bi bi-arrow-right-short"></i> Mes services</h5>
     </div>
 
     <div class="container-fluid">
